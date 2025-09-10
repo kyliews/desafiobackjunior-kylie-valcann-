@@ -16,9 +16,8 @@ a api serve dados a partir de um arquivo mock-users.json e segue uma arquitetura
 ---
 
 ## estrutura de pastas
-o projeto utiliza a seguinte estrutura de pastas para organizar o código:
 
----
+```
 ├── app/
 │ ├── init.py
 │ ├── controllers.py # camada de rotas (http)
@@ -32,7 +31,7 @@ o projeto utiliza a seguinte estrutura de pastas para organizar o código:
 ├── pyproject.toml # arquivo de configuração do projeto
 ├── requirements.txt # dependências do projeto
 └── run.py # ponto de entrada da aplicação
----
+```
 
 ## como executar
 
