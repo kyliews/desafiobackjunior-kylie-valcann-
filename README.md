@@ -45,6 +45,8 @@ clone o repositório para a sua máquina local:
 
 git clone https://github.com/kyliews/desafiobackjunior-kylie-valcann-
 
+vá até a pasta: desafiobackjunior-kylie-valcann-
+
 crie e ative um ambiente virtual:
 
 ## windows
