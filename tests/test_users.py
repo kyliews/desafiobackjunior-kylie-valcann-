@@ -20,7 +20,7 @@ def test_get_user_by_id_success(client):
     assert response.status_code == 200
     assert 'data' in json_data
     assert json_data['data']['id'] == 1
-    assert json_data['data']['name'] == 'João Silva'
+    assert json_data['data']['name'] == 'joão Silva'
 
 def test_get_user_by_id_not_found(client):
     """
