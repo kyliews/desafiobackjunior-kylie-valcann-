@@ -43,7 +43,7 @@ a api serve dados a partir de um arquivo mock-users.json e segue uma arquitetura
 ### instalação
 clone o repositório para a sua máquina local:
 
-git clone cd https://github.com/kyliews/desafiobackjunior-kylie-valcann-
+git clone https://github.com/kyliews/desafiobackjunior-kylie-valcann-
 
 crie e ative um ambiente virtual:
 
