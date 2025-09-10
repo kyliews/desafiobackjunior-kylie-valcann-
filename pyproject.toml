@@ -1,0 +1,4 @@
+# pyproject.toml
+[project]
+name = "desafio-api"
+version = "0.1.0"

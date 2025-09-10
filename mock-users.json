@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "joão Silva",
+    "email": "joao.silva@example.com",
+    "role": "manager",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "name": "Maria Hoffmann",
+    "email": "maria.hoffmann@examplo.com",
+    "role": "analyst",
+    "is_active": false
+  },
+  {
+    "id": 3,
+    "name": "Carlos pereira",
+    "email": "carlos.pereira@example.com",
+    "role": "developer",
+    "is_active": true
+  }
+]
