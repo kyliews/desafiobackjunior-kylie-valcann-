@@ -77,10 +77,9 @@ FLASK_DEBUG=1
 
 ## execução
 
-com o ambiente virtual ativado inicie o servidor com o seguinte comando:
+1. com o ambiente virtual ativado inicie o servidor com o seguinte comando:
 
 python run.py
-
 
 a api estara no endereço:
 http://127.0.0.1:5000
