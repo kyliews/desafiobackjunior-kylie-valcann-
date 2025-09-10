@@ -43,17 +43,15 @@ a api serve dados a partir de um arquivo mock-users.json e segue uma arquitetura
 ### instalação
 clone o repositório para a sua máquina local:
 
-git clone 
-cd desafio-backend-usuarios
-
+git clone cd https://github.com/kyliews/desafiobackjunior-kylie-valcann-
 
 crie e ative um ambiente virtual:
 
-# windows
+## windows
 python -m venv venv
 .\venv\scripts\activate
 
-# macos/linux
+## macos/linux
 python3 -m venv venv
 source venv/bin/activate
 
@@ -72,7 +70,8 @@ crie um arquivo .env na raiz do projeto e adicione a seguinte linha:
 
 FLASK_DEBUG=1
 
-execução
+
+## execução
 
 com o ambiente virtual ativado inicie o servidor com o seguinte comando:
 
@@ -82,12 +81,13 @@ python run.py
 a api estara no endereço:
 http://127.0.0.1:5000
 
-rodando os testes
+## rodando os testes
 
-para garantir que tudo está funcionando corretamente, execute a suíte de testes automatizados:
+para garantir que tudo está funcionando corretamente, execute a suíte de testes automatizados no terminal: 
 
 pytest
 
+```
 exemplos de uso com curl
 listar usuários (página 1, 10 por página)
 curl "http://127.0.0.1:5000/users"
@@ -106,3 +106,4 @@ curl "http://127.0.0.1:5000/users/1"
 
 tentar obter um usuari que nao existe
 curl "http://127.0.0.1:5000/users/999"
+```
