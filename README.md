@@ -36,9 +36,7 @@ a api serve dados a partir de um arquivo mock-users.json e segue uma arquitetura
 ## como executar
 
 ### pré-requisitos
-- Flask  
-- python-dotenv  
-- pytest  
+python instalado na maquina
 
 ### instalação
 1. clone o repositório para a sua máquina local:
@@ -86,7 +84,7 @@ http://127.0.0.1:5000
 
 ## rodando os testes
 
-para garantir que tudo está funcionando corretamente, execute a suíte de testes automatizados no terminal: 
+para garantir que tudo está funcionando corretamente, abra outro terminal e execute:
 
 pytest
 
