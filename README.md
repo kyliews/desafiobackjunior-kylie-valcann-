@@ -32,7 +32,6 @@ o projeto utiliza a seguinte estrutura de pastas para organizar o código:
 ├── pyproject.toml # arquivo de configuração do projeto
 ├── requirements.txt # dependências do projeto
 └── run.py # ponto de entrada da aplicação
-
 ---
 
 ## como executar
