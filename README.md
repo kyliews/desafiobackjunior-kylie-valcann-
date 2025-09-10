@@ -41,13 +41,15 @@ a api serve dados a partir de um arquivo mock-users.json e segue uma arquitetura
 - pytest  
 
 ### instalação
-clone o repositório para a sua máquina local:
+1. clone o repositório para a sua máquina local:
 
 git clone https://github.com/kyliews/desafiobackjunior-kylie-valcann-
 
-vá até a pasta: desafiobackjunior-kylie-valcann-
+2. vá até a pasta:
 
-crie e ative um ambiente virtual:
+cd desafiobackjunior-kylie-valcann-
+
+3. crie e ative um ambiente virtual:
 
 ## windows
 python -m venv venv
@@ -58,17 +60,17 @@ python3 -m venv venv
 source venv/bin/activate
 
 
-instale as dependências do projeto:
+4. instale as dependências do projeto:
 
 pip install -r requirements.txt
 
 
-instale o projeto em modo editável (pois tem importações para os testes):
+5. instale o projeto em modo editável (pois tem importações para os testes):
 
 pip install -e .
 
 
-crie um arquivo .env na raiz do projeto e adicione a seguinte linha:
+6. crie um arquivo .env na raiz do projeto e adicione a seguinte linha:
 
 FLASK_DEBUG=1
 
